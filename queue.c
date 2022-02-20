@@ -8,7 +8,7 @@ void queue_init(queue_t *q)
 	q->size = 0;
 	q->front = 0;
 	q->rear = 0;
-	memset(q->buff, 0, sizeof(q->buff[0]])*QUEUE_SIZE);
+	memset(q->buff, 0, sizeof(q->buff[0])*QUEUE_SIZE);
 }
  
 /*!
